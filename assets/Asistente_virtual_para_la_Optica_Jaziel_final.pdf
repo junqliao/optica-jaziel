@@ -1,0 +1,249 @@
+
+
+
+Asistente virtual para la Óptica Jaziel
+
+Nombre del profesor:
+Jonathan Alexis Puente Zamora
+
+Curso:
+INTR.ING.DE SISTEMAS COMPUTACIONALES.
+
+Integrantes:
+Junior Aaron Calderon Cari.
+Jordan Jose Machuca Reyes.
+Antonio Manuel Flores Granados.
+Carlos Andre Mamani Navarro.
+Victor Abraham Huangal Camarena.
+
+2025
+
+
+________________________________________
+Índice
+1.	Información de la empresa
+o	Resumen
+o	Justificación
+o	Historia
+o	Misión
+o	Visión
+o	Lema
+o	Productos y servicios
+o	Precios
+o	Catálogo de productos
+o	Medios de pago
+o	Contacto y redes sociales
+2.	Problema identificado
+o	Relación causa → efecto
+o	Diagrama de Ishikawa
+3.	Artículos científicos y propuesta de solución
+o	Referencias en formato APA
+o	Solución: Chatbot desarrollado en Botpress
+o	Bibliografía
+o	Conclusiones
+
+
+
+
+
+
+Resumen
+
+Óptica Jaziel es una empresa dedicada al cuidado de la salud visual, fundada en el año 2018 con el objetivo de ofrecer productos ópticos de calidad a precios accesibles. Su misión es brindar soluciones visuales confiables y personalizadas que mejoren la calidad de vida de sus clientes, mientras que su visión busca consolidarse como la óptica de referencia en la comunidad por su innovación y excelencia en el servicio.
+La empresa ofrece una amplia gama de productos, incluyendo lunas ópticas, monturas, lentes de contacto, accesorios y productos de limpieza, con precios accesibles y opciones de pago mediante Visa, Mastercard, Yape y transferencias bancarias. Además, cuenta con atención presencial en Comas y servicio de delivery a nivel nacional.
+Sin embargo, se ha identificado un problema en la gestión de atención al cliente debido a la falta de un sistema automatizado, lo que genera demoras en las respuestas, pérdida de ventas y menor satisfacción del cliente. Las principales causas son la atención manual limitada, la ausencia de tecnología automatizada y la escasez de personal.
+Con base en artículos científicos recientes sobre el uso de chatbots e inteligencia artificial (Adamopoulou, 2020; Díaz, 2025), se propone la implementación de un asistente virtual desarrollado en Botpress. Esta herramienta permitirá atender consultas frecuentes de manera inmediata y disponible las 24 horas, mejorando la eficiencia operativa, la experiencia del cliente y la competitividad de la empresa.
+
+
+
+
+
+Justificación
+
+La implementación de un asistente virtual desarrollado en Botpress es una solución estratégica e indispensable para que Óptica Jaziel supere los desafíos actuales de gestión de atención al cliente y capitalizar oportunidades de crecimiento, decidimos esto al encontrar dos puntos importantes: 
+1.	Abordar un problema critico de servicio al cliente:
+Actualmente, Óptica Jaziel sufre de una gestión al cliente ineficiente por sus canales de atención online, debido a esto la implementación de un sistema automatizado permitirá mejorará la rapidez en la atención al cliente, el flujo de ventas será rápido lo que permitirá mayor número de ventas y finalmente ayudará también con la falta de personal para atender los canales web de la empresa.
+
+2.	Impulso a la eficiencia operativa y la competitividad:
+La solución que proponemos transformara la operatividad de la empresa.
+Automatizar las consultas frecuentes o las preguntas repetitivas relacionadas con el catálogo de productos que ofrece la empresa, precios, horarios de atención, medios de paga y ubicación.
+Reducción de carga laboral al manejar las consultas básicas, se reducirá la carga de trabajo humano. Esto permite que el equipo se enfoque en interacciones mas complejas o en la atención presencial, mejorando la eficiencia operativa de la empresa.
+Ventaja competitiva al alinearse con tendencias tecnológicas, la empresa aumentara su competitividad en el sector, tal como indican los artículos científicos propuestos los Chatbots son descritos como “motores de eficiencia operativa” que impulsan la productividad empresarial.
+
+
+
+1. Información de la empresa
+Historia:
+Óptica Jaziel inició sus operaciones en el año 2018 con el propósito de brindar soluciones en salud visual a la comunidad. Su enfoque principal es ofrecer lentes y productos ópticos de calidad a precios accesibles, garantizando que las personas con problemas de visión puedan acceder a un servicio confiable y personalizado.
+1.1. Misión:
+Brindar soluciones visuales de calidad a través de productos y servicios ópticos confiables, accesibles y personalizados, mejorando la salud visual y la calidad de vida de nuestros clientes.
+1.2. Visión:
+Convertirse en la óptica de referencia dentro de la comunidad, reconocida por su innovación, excelencia en el cuidado de la visión y por ser un aliado en el bienestar visual de las personas.
+1.3. Lema:
+Nuestra misión es tu visión.
+1.4. Productos y servicios:
+•	Lunas ópticas: resinas UV, antirreflex 16, blue defense, dippin blue, multifocales, bifocales y fotomatic.
+•	Monturas: plástico, carey, acetato, TR90, metal, aluminio, titanio, silicona, y gafas de sol con protección UV 400.
+•	Lentes de contacto: cosméticos, estéticos, terapéuticos y de fantasía.
+•	Accesorios: estuches, holders, sujetadores y kits de limpieza.
+1.5. Precios:
+•	Monturas desde S/20.
+•	Lunas desde S/60 (dependiendo de la medida).
+•	Lentes de contacto desde S/55.
+•	Accesorios desde S/3.
+
+1.6. 📋 Catálogo de productos Óptica Jaziel
+Lunas y Tratamientos
+Producto	Precio	Medida
+Resinas UV	S/. 60	Dependiendo de la medida
+Antirreflex 16	S/. 80	Dependiendo de la medida
+Blue Defense	S/. 120	Dependiendo de la medida
+Dippin Blue	S/. 220	Dependiendo de la medida
+Multifocales	S/. 280	Dependiendo de la medida
+Bifocales	S/. 90	Dependiendo de la medida
+Fotomatic	S/. 150	Dependiendo de la medida
+
+Monturas
+Producto	Precio	Medida
+Plástico	S/. 20	Sin medida
+Carey	S/. 70	Sin medida
+Acetato	S/. 100 – 150	Sin medida
+TR90	S/. 170	Sin medida
+Metal	S/. 70 – 150	Sin medida
+Aluminio	S/. 170	Sin medida
+Titanio	S/. 150	Sin medida
+Silicona	S/. 120 – 300	Sin medida
+Sol con protección UV400	S/. 40 – 100	Sin medida
+
+Productos de Limpieza
+Producto	Precio	Medida
+Confort Blue Antiempañamiento	Incluido en kit	Sin medida
+Confort Blue Paño limpiador	Incluido en kit	Sin medida
+Kit completo (Antiempañamiento + Paño)	S/. 18	Sin medida
+
+
+Lentes de Contacto
+Producto	Precio	Medida
+Cosméticos Freshlook – Colorblends	S/. 90	Sin medida
+Multi3 Max 30 (120 ml, económico)	S/. 55	Sin medida
+Estéticos (incluye estuche y líquido)	S/. 300	Sin medida
+Terapéuticos (incluye estuche y líquido)	S/. 280	Sin medida
+Fantasía (par, incluye estuche y líquido)	S/. 120 – 150	Sin medida
+
+Accesorios
+Producto	Precio	Medida
+Estuche de tela	Incluido en compra	Sin medida
+Estuche de sobre	Incluido en compra	Sin medida
+Estuche de plástico	S/. 5	Sin medida
+Estuche de cobre	S/. 15	Sin medida
+Estuche de correa	S/. 25	Sin medida
+Paños	Incluido en compra	Sin medida
+Pinzas para lentes de contacto	S/. 20	Sin medida
+Holder de diseño	S/. 25	Sin medida
+Holder de perla	S/. 15	Sin medida
+Holder de silicona	S/. 10	Sin medida
+Holder satinado	S/. 3	Sin medida
+
+
+1.7. Medios de pago:
+Visa, Mastercard, Yape y transferencias bancarias.
+1.8. Contacto y redes sociales:
+•	WhatsApp: 997 424 072
+•	Facebook: Grupo Jaziel Visión
+•	TikTok: OpticalJaziel2018
+•	Servicio de delivery y envíos a nivel nacional.
+
+1.9. Horario de Atención - Óptica Jaziel
+Día	Horario de Atención
+Lunes	9:30 am – 7:00 pm
+Martes	9:30 am – 7:00 pm
+Miércoles	9:30 am – 7:00 pm
+Jueves	9:30 am – 7:00 pm
+Viernes	9:30 am – 7:00 pm
+Sábado	9:30 am – 7:00 pm
+Domingo	Cerrado
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.0. Dirección
+Av. Guillermo de la Fuente N°475 - Comas (A media cuadra del Hospital Marino Molina Essalud)
+2. Problema identificado
+Actualmente, Óptica Jaziel no cuenta con un sistema automatizado de atención al cliente, lo cual genera dificultades en la gestión de consultas frecuentes relacionadas con precios, productos, servicios y ubicación.
+Relación causa → efecto
+•	Causas principales:
+o	Atención manual limitada a horarios específicos.
+o	Ausencia de un sistema tecnológico para responder de forma inmediata.
+o	Escasez de personal para responder todas las consultas.
+•	Efectos:
+o	Retrasos en la atención al cliente.
+o	Pérdida de oportunidades de venta.
+o	Disminución de la satisfacción y fidelización de clientes.
+
+Diagrama de Ishikawa (texto descriptivo)
+•	Comunicación: falta de disponibilidad 24/7.
+•	Tecnología: ausencia de chatbots o asistentes virtuales.
+•	Recursos humanos: número limitado de trabajadores para atención directa.
+•	Clientes: creciente demanda de información rápida y precisa.
+•	Ventas: reducción de ingresos por clientes no atendidos a tiempo.
+
+3. Artículos científicos y propuesta de solución
+Artículos científicos (formato APA):
+•	El artículo ofrece una revisión exhaustiva sobre los chatbots, abarcando su historia, tecnologías subyacentes y aplicaciones actuales. El objetivo es proporcionar una visión clara de cómo han evolucionado los chatbots, cómo funcionan técnicamente y en qué áreas se están utilizando hoy en día. 
+Los chatbots se utilizan en una amplia variedad de sectores, incluyendo atención al cliente, salud, educación, comercio electrónico, banca y entretenimiento.
+Se resalta su papel en la automatización de tareas repetitivas, la mejora de la experiencia del usuario y la disponibilidad 24/7 para resolver dudas o realizar gestiones  (Adamopoulou, 2020)
+•	Con entornos corporativos caracterizados por la automatización y la hiperconectividad, los Chatbots AI han evolucionado de simples herramientas de atención al cliente a verdaderos motores de eficiencia operativa. Estos “AI agents”, según el World Economic Forum, impulsan al mismo tiempo la productividad empresarial.
+Gracias a los avances en procesamiento de lenguaje natural y aprendizaje automático, estos sistemas ya no se limitan a responder preguntas frecuentes. Hoy esto, con inteligencia artificial, son capaces de comprender intenciones complejas, interactuar de forma contextual, integrarse con múltiples plataformas empresariales y ejecutar tareas críticas en tiempo real. (Díaz, 2025)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Solución propuesta:
+La implementación de un asistente virtual desarrollado en Botpress permitirá automatizar la atención de consultas frecuentes, tales como precios, disponibilidad de productos, promociones, ubicación y métodos de pago. Este sistema funcionará de manera inmediata y en cualquier horario, reduciendo la carga de trabajo del personal, mejorando la experiencia del cliente y aumentando la competitividad de la empresa.
+Presupuesto:
+Recopilación de información y propuesta – costo 50 soles:
+Visita al local recopilar información sobre costos servicios, información sobre la empresa para poder personalizar el asistente virtual, consulta con cliente para tomar los puntos que desea implementar y su visión del trabajo.
+Desarrollo del asistente – costo 300 soles:
+Creación de asistente virtual mediante Botpress ingresando información recolectada de la empresa (precios, productos y dirección), ajustando parámetros previamente conversados con el cliente.
+Mantenimiento mensual e implementar costos de productos nuevos, así como promociones – 50 soles mensuales por un año.
+Soporte técnico – gratis por periodo de 1 año.
+Renovación de soporte técnico – con costo de 200 soles.
+ 
+
+
+
+
+Bibliografía.
+
+Adamopoulou. (2020). Chatbots: Historia, tecnología y aplicaciones. Recuperado el 20 de 09 de 2025, de ScienceDirect: https://www.sciencedirect.com/science/article/pii/S2666827020300062?via%3Dihub
+Díaz, V. D. (2025). Chatbots AI: Automatiza y mejora la experiencia. Recuperado el 20 de 09 de 2025, de IMPACTOTIC: https://impactotic.co/inteligencia-artificial/chatbots-ai-automatiza-y-mejora-la-experiencia/
+
+Conclusiones
+Ópticas Jaziel identifico que la atención al cliente manual y limitada estaba provocando demoras, perdidas de ventas y menor satisfacción. Para solucionar este problema, se propone la implementación de un asistente virtual desarrollado en Botpress. Esta herramienta, respaldada por la efectividad de chatbots em la automatización y disponibilidad 24/7, permitirá a ala óptica responder consultas frecuentes de manera inmediata. En esencia el objetivo del trabajo es mejorar la eficiencia operativa, reducir la carga laboral humana y brindar una atención rápida y de calidad a los clientes lo que permitirá una mejor respuesta del cliente al servicio y fidelización de los clientes.
+
+ENLACE BOTPRESS:
+
+https://cdn.botpress.cloud/webchat/v3.3/shareable.html?configUrl=https://files.bpcontent.cloud/2025/10/01/21/20251001214449-RBTELVYU.json
+Correo de usuario: vahc123455@gmail.com
+Contraseña: huangal12345Z
+
