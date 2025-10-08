@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Óptica Jaziel</title>
+  <meta name="description" content="Óptica Jaziel - Lentes de calidad y servicio personalizado" />
+  <style>
+    :root{--brand:#0b6cf7;--accent:#0b9df7;--muted:#666}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; color:#222;background:#fbfcff}
+    .container{max-width:1000px;margin:24px auto;padding:0 16px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--brand),var(--accent));display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    nav a{margin-left:14px;color:var(--muted);text-decoration:none}
+    .hero{display:flex;gap:24px;align-items:center;margin:28px 0}
+    .hero .left{flex:1}
+    .hero h1{font-size:28px;margin:0}
+    .cta{background:var(--brand);color:white;padding:10px 16px;border-radius:8px;border:none;cursor:pointer}
+    .products{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:22px 0}
+    .card{border:1px solid #eee;padding:12px;border-radius:10px;background:white}
+    .card img{width:100%;height:140px;object-fit:cover;border-radius:6px}
+    footer{border-top:1px solid #f0f0f0;padding:18px 0;color:var(--muted);margin-top:28px}
+    .chat-btn{position:fixed;right:20px;bottom:20px;background:var(--brand);color:#fff;border-radius:999px;padding:14px 16px;border:none;cursor:pointer;box-shadow:0 6px 18px rgba(11,108,247,0.24)}
+    .chat-panel{position:fixed;right:20px;bottom:76px;width:360px;height:520px;border-radius:12px;overflow:hidden;border:1px solid #e6e6e6;background:white;box-shadow:0 12px 40px rgba(0,0,0,0.12);display:none}
+    .chat-panel header{background:linear-gradient(90deg,var(--brand),var(--accent));color:white;padding:8px 12px;font-weight:600}
+    .badge{display:inline-block;background:#eef6ff;padding:6px 10px;border-radius:10px;font-weight:600}
+    @media (max-width:520px){.chat-panel{right:10px;left:10px;width:auto;height:420px}}
+    .meta{color:var(--muted);font-size:14px}
+    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">OJ</div>
+        <div>
+          <div style="font-weight:700">Óptica Jaziel</div>
+          <div style="font-size:12px;color:var(--muted)">Lentes | Armazones | Revisión visual</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#productos">Productos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#documentos">Documentos</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="left">
+        <h1>Bienvenido a Óptica Jaziel</h1>
+        <p class="meta">Lentes de alta calidad, ajuste personalizado y atención profesional. Compra en línea o reserva tu cita para examen visual.</p>
+        <div style="margin-top:12px">
+          <button class="cta" onclick="location.href='#contacto'">Reservar cita</button>
+        </div>
+        <div style="margin-top:10px">
+          <span class="badge">Horario: Lun-Sab 9:30 - 19:00</span>
+          <span style="margin-left:8px;color:var(--muted);font-size:13px">Delivery a nivel nacional • WhatsApp: 997 424 072</span>
+        </div>
+      </div>
+      <div style="width:320px;border-radius:12px;overflow:hidden">
+        <img src="https://images.unsplash.com/photo-1519098901909-b1553a8e9b75?auto=format&fit=crop&w=800&q=60" alt="lentes" style="width:100%;height:220px;object-fit:cover;border-radius:12px;">
+      </div>
+    </section>
+
+    <h2 id="productos">Productos destacados</h2>
+    <div id="productList" class="products"></div>
+
+    <h2 id="servicios">Servicios</h2>
+    <div style="display:flex;gap:12px;flex-wrap:wrap">
+      <div style="flex:1;min-width:220px;padding:12px;border:1px solid #f0f0f0;border-radius:10px">Examen visual profesional</div>
+      <div style="flex:1;min-width:220px;padding:12px;border:1px solid #f0f0f0;border-radius:10px">Adaptación de lentes de contacto</div>
+      <div style="flex:1;min-width:220px;padding:12px;border:1px solid #f0f0f0;border-radius:10px">Ajuste y reparación de armazones</div>
+    </div>
+
+    <section id="contacto" style="margin-top:20px">
+      <h2>Contacto</h2>
+      <div class="grid-2">
+        <div>
+          <p class="meta">Escríbenos para reservar tu cita o encargar lentes personalizados.</p>
+          <p><strong>Email:</strong> contacto@optica-jaziel.example<br><strong>Tel:</strong> +51 997 424 072</p>
+          <p><strong>Dirección:</strong> Av. Guillermo de la Fuente N°475 - Comas</p>
+        </div>
+        <div>
+          <h3>Redes y pagos</h3>
+          <p class="meta">Facebook: Grupo Jaziel Visión • TikTok: OpticalJaziel2018</p>
+          <p class="meta">Medios de pago: Visa, Mastercard, Yape y transferencias</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="documentos" style="margin-top:20px">
+      <h2>Documentos</h2>
+      <p class="meta">Aquí puedes descargar la base de conocimiento / ficha técnica del asistente virtual (PDF) y también la base de datos en formato JSON para integrarla en el sitio o en Botpress.</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <a id="pdfLink" href="#" download="Asistente_virtual_para_la_Optica_Jaziel.pdf" class="cta" style="text-decoration:none">Descargar documento (PDF)</a>
+        <button class="cta" id="downloadJson" style="background:#0b9df7">Descargar base de datos (JSON)</button>
+      </div>
+    </section>
+
+    <footer>
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <div>© Óptica Jaziel</div>
+        <div style="color:var(--muted)">Hecho con ❤️ • Página demo gratuita</div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Chatbot panel (Botpress) -->
+  <button class="chat-btn" id="chatBtn">Chat</button>
+  <div class="chat-panel" id="chatPanel" role="dialog" aria-label="Asistente Óptica Jaziel">
+    <header>Asistente Óptica Jaziel <button style="float:right;background:transparent;border:0;color:rgba(255,255,255,0.9);font-weight:700;cursor:pointer" id="closeChat">✕</button></header>
+    <iframe id="botFrame" src="https://studio.botpress.cloud/ab471b82-6e16-4dae-b824-fb200d6b3338/flows/wf-main" title="Asistente Óptica Jaziel" style="width:100%;height:100%;border:0"></iframe>
+  </div>
+
+  <script>
+    const chatBtn = document.getElementById('chatBtn');
+    const panel = document.getElementById('chatPanel');
+    const closeBtn = document.getElementById('closeChat');
+    chatBtn.addEventListener('click', ()=>{ panel.style.display='block'; });
+    closeBtn.addEventListener('click', ()=>{ panel.style.display='none'; });
+
+    // --- Base de datos embebida (extraída del PDF que proporcionaste)
+    const DB = {
+      info: {
+        name: "Óptica Jaziel",
+        mission: "Brindar soluciones visuales de calidad a través de productos y servicios ópticos confiables, accesibles y personalizados.",
+        address: "Av. Guillermo de la Fuente N°475 - Comas",
+        whatsapp: "+51997424072",
+        horarios: "Lun-Sab 9:30 - 19:00"
+      },
+      products: [
+        {category: "Lunas y Tratamientos", name: "Resinas UV", price: 60},
+        {category: "Lunas y Tratamientos", name: "Antirreflex 16", price: 80},
+        {category: "Lunas y Tratamientos", name: "Blue Defense", price: 120},
+        {category: "Lunas y Tratamientos", name: "Dippin Blue", price: 220},
+        {category: "Lunas y Tratamientos", name: "Multifocales", price: 280},
+        {category: "Monturas", name: "Plástico", price: 20},
+        {category: "Monturas", name: "Carey", price: 70},
+        {category: "Monturas", name: "Acetato", price: 120},
+        {category: "Monturas", name: "TR90", price: 170},
+        {category: "Lentes de Contacto", name: "Cosméticos Freshlook", price: 90},
+        {category: "Accesorios", name: "Kit completo", price: 18}
+      ]
+    };
+
+    // Render productos en la página
+    function renderProducts(){
+      const container = document.getElementById('productList');
+      container.innerHTML = '';
+      DB.products.forEach(p =>{
+        const article = document.createElement('article');
+        article.className = 'card';
+        article.innerHTML = `
+          <img src='https://images.unsplash.com/photo-1520975911232-7a26f9f1b6f9?auto=format&fit=crop&w=800&q=60' alt='${p.name}'>
+          <h3>${p.name}</h3>
+          <p style=\"color:var(--muted);font-size:14px\">${p.category}</p>
+          <div style=\"margin-top:8px\"><strong>S/ ${p.price}.00</strong></div>`;
+        container.appendChild(article);
+      });
+    }
+
+    renderProducts();
+
+    // Descargar JSON localmente (para que subas como "base de datos")
+    document.getElementById('downloadJson').addEventListener('click', ()=>{
+      const dataStr = 'data:text/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(DB, null, 2));
+      const dlAnchor = document.createElement('a');
+      dlAnchor.setAttribute('href', dataStr);
+      dlAnchor.setAttribute('download', 'optica_jaziel_db.json');
+      document.body.appendChild(dlAnchor);
+      dlAnchor.click();
+      dlAnchor.remove();
+    });
+
+    // Enlace para descargar PDF (si subes el PDF al mismo sitio, reemplaza href por la ruta)
+    document.getElementById('pdfLink').href = './assets/Asistente_virtual_para_la_Optica_Jaziel_final.pdf';
+
+    // Función opcional: intentar cargar datos desde /data/db.json si lo subes a Netlify/GitHub
+    async function tryLoadExternalDB(){
+      try{
+        const res = await fetch('/data/db.json');
+        if(res.ok){
+          const ext = await res.json();
+          // si existe, usa la data externa
+          if(ext.products && ext.products.length) {
+            DB.products = ext.products;
+            renderProducts();
+            console.log('Base de datos externa cargada.');
+          }
+        }
+      }catch(e){console.log('No se cargó base externa', e)}
+    }
+    tryLoadExternalDB();
+
+  </script>
+</body>
+</html>
