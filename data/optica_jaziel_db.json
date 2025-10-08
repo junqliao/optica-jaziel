@@ -1,0 +1,6 @@
+optica-jaziel/
+├── index.html
+├── assets/
+│   └── Asistente_virtual_para_la_Optica_Jaziel_final.pdf
+└── data/
+    └── optica_jaziel_db.json
